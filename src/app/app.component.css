@@ -1,0 +1,95 @@
+.full {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.organ-container{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 10px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eyes-container{
+    display: flex;
+    margin-top: 80px;
+}
+
+.eye {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye.two{
+    margin-left: 100px;
+}
+
+.eye-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.smile-outer{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 0px 0px 60px 60px;
+}
+
+.smile-inner{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.button-container{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 50px;
+    aspect-ratio: 2;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+}
+
+button:hover {
+    border-color: white;
+}
+
+button.no {
+    margin-right: 300px;
+    background-color: red;
+}
+
+button.yes {
+    margin-left: 300px;
+    background-color: green;
+}
+
