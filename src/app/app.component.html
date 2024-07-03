@@ -1,0 +1,28 @@
+<div class = "full" (mousemove)="onMouseMove($event)">
+  <div class = "organ-container">
+    <div class = "eyes-container">
+      <div class = "eye one">
+        <div class = "eye-ball one" [style.top.px]="eyeOnePos.y" [style.left.px]="eyeOnePos.x"></div>
+      </div>
+      
+      <div class = "eye two">
+        <div class = "eye-ball one" [style.top.px]="eyeTwoPos.y" [style.left.px]="eyeTwoPos.x"></div>
+      </div>
+    </div>
+    <div class = "smile-outer" [style.transform]="'rotateX(' + rotate + 'deg)'">
+      <div class = "smile-inner"></div>
+    </div>
+  </div>
+  <!-- <div class = "spine"></div>
+  <div class = "hip"></div>
+  <div class = ""></div> -->
+  <div class = "button-container">
+    <button class = "yes" [style.height.px] = "yesButton" (click) = "onClickYes()">Yes</button>
+    <h3 style = "color: white">Do you love me?</h3>
+    <button class = "no" [style.height.px] = "noButton" (click) = "onClickNo()">No</button>
+  </div>
+</div>
+
+
+
+
