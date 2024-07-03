@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
 
 
 function func(x: number, y: number, mouseX: number, mouseY: number){
@@ -28,7 +28,7 @@ function func(x: number, y: number, mouseX: number, mouseY: number){
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
